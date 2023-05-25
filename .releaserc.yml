@@ -72,5 +72,5 @@ plugins:
         - sonar-project.properties
   - - '@semantic-release/github'
     - assets:
-        - path: target/scala-3.2.2/main.jar
+        - path: target/scala-3.3.0/main.jar
           label: Main JAR file
