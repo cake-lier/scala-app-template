@@ -8,7 +8,6 @@ Global / excludeLintKeys := Set(idePackagePrefix)
 ThisBuild / scalaVersion := "3.3.0"
 
 ThisBuild / scalafixDependencies ++= Seq(
-  "com.github.liancheng" %% "organize-imports" % "0.6.0",
   "io.github.ghostbuster91.scalafix-unified" %% "unified" % "0.0.8",
   "net.pixiv" %% "scalafix-pixiv-rule" % "4.5.1"
 )
@@ -33,7 +32,6 @@ lazy val root = project
     ),
     wartremoverErrors ++= Warts.allBut(Wart.ImplicitParameter),
     version := "0.0.0",
-    coverageEnabled := false,
     coverageMinimumStmtTotal := 80,
     coverageMinimumBranchTotal := 80,
     headerLicense := Some(HeaderLicense.MIT(
