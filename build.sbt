@@ -5,7 +5,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 
 Global / excludeLintKeys := Set(idePackagePrefix)
 
-ThisBuild / scalaVersion := "3.3.0"
+ThisBuild / scalaVersion := "3.6.1"
 
 ThisBuild / scalafixDependencies ++= Seq(
   "io.github.ghostbuster91.scalafix-unified" %% "unified" % "0.0.9",
