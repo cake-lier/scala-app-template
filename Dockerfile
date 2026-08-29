@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17.0.8_7-jre
+FROM eclipse-temurin:17.0.20_8-jre
 
 RUN mkdir /opt/app
 COPY application.conf /opt/app/
